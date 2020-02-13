@@ -29,6 +29,7 @@ function loopAWhile(array) {
   var sum = 0
   var i = 0
    while (i < array.length) {
+     debugger
     sum += array[i];
     i++;
   }
@@ -38,5 +39,22 @@ function loopAWhile(array) {
 loopAWhile([1,2,3])
 
 
+
+
+function loopAWhile(array) {
+  var sum = 0
+  var i = 0
+  do {
+    sum += array[i];
+    i++;
+  } while (i < array.length) {
+    
+  console.log(sum);
+  }
+    
+
+}
+
+loopAWhile([1,2,3])
 
 
